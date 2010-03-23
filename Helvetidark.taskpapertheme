@@ -2,7 +2,7 @@
 	<!-- Window Style -->
 	<color id="foreground" red="1.0" green=".2" blue=".2" alpha="1.0" />
 	<color id="background" red=".1" green=".1" blue=".1" alpha="1.0" />
-	<window foregroundColorID="foreground" backgroundColorID="background" shouldUseHUDScrollers="no" />
+	<window foregroundColorID="foreground" backgroundColorID="background" shouldUseHUDScrollers="yes" />
 
 	<!-- Text View Style -->
 	<color id="tag" red=".35" green=".35" blue=".35" alpha="1.0" />
