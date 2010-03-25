@@ -2,7 +2,7 @@
 ## Helvetica Themes for TaskPaper
 
 ## Notes
-These themes are a work-in-progress, in my spare time - please send your feedback to dan@superfluousbanter.org and I'll do my best to incorporate improvements.
+These themes are a work-in-progress, in my spare time - please send your feedback to dan+helvetipaper@superfluousbanter.org and I'll do my best to incorporate improvements.
 
 ## Disclaimer
 This should go without saying, however: By using these themes you accept all risk associated with them. I'm not responsible
