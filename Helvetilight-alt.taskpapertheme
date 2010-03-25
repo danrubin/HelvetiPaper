@@ -44,9 +44,9 @@
 
 	<!-- GroupHeader style. This section defines the styles that are applied to groupHeader lines. (top level projects) -->
 	<color id="groupHeader" extendsColorID="foreground" />
-	<font id="groupHeader" name="Helvetica Neue Light" size="21" />
+	<font id="groupHeader" name="Helvetica Neue Bold" />
 	<characterStyle id="groupHeader" fontID="groupHeader" foregroundColorID="groupHeader" />
-	<paragraphStyle id="groupHeader" extendsParagraphStyleID="base" paragraphSpacingBefore="19" paragraphSpacing="7" />
+	<paragraphStyle id="groupHeader" extendsParagraphStyleID="base" paragraphSpacingBefore="17" paragraphSpacing="4" />
 	<entryRule matchesQuery="isgroupheader" paragraphStyleID="groupHeader" lineCharacterStyleID="groupHeader" />
 	
 	<!-- @done style. This section defines the styles that are applied to lines tagged with @done. -->

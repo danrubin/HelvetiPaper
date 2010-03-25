@@ -11,7 +11,7 @@
 	<color id="selection" red=".2" green=".2" blue=".2" alpha="1.0" />
 	<font id="base" name="Helvetica Neue" size="0" />
 	<characterStyle id="base" fontID="base" foregroundColorID="foreground" />
-	<paragraphStyle id="base" paragraphSpacingBefore="0" paragraphSpacing="0" lineSpacing="0" lineHeightMultiple="1.3" alignment="NSLeftTextAlignment" />
+	<paragraphStyle id="base" paragraphSpacingBefore="0" paragraphSpacing="4" lineSpacing="0" lineHeightMultiple="1.0" alignment="NSLeftTextAlignment" />
 	<textView
 		shouldAntialiasText="yes"
 		shouldShowNoteHandles="no"
@@ -31,9 +31,10 @@
 
 	<!-- Project style. This section defines the styles that are applied to project lines. -->
 	<color id="project" extendsColorID="foreground" />
-	<font id="project" extendsFontID="base" name="Helvetica Neue Medium" fontTraitMask="NSBoldFontMask" />
+	<font id="project" name="Helvetica Neue Medium" />
 	<characterStyle id="project" fontID="project" foregroundColorID="project" />
-	<entryRule matchesQuery="type = &quot;project&quot;" lineCharacterStyleID="project" paragraphStyleID="base" />
+	<paragraphStyle id="project" extendsParagraphStyleID="base" paragraphSpacingBefore="0" paragraphSpacing="4" />
+	<entryRule matchesQuery="type = &quot;project&quot;" lineCharacterStyleID="project" paragraphStyleID="project" />
 
 	<!-- Note style. This section defines the styles that are applied to note lines. -->
 	<color id="note" red=".6" green=".6" blue=".6" alpha="1.0" />
@@ -43,9 +44,9 @@
 
 	<!-- GroupHeader style. This section defines the styles that are applied to groupHeader lines. (top level projects) -->
 	<color id="groupHeader" extendsColorID="foreground" />
-	<font id="groupHeader" extendsFontID="base" name="Helvetica Neue Light" size="21" />
+	<font id="groupHeader" name="Helvetica Neue Light" size="21" />
 	<characterStyle id="groupHeader" fontID="groupHeader" foregroundColorID="groupHeader" />
-	<paragraphStyle id="groupHeader" extendsParagraphStyleID="base" lineHeightMultiple="1.0" paragraphSpacingBefore="21" paragraphSpacing="9" />
+	<paragraphStyle id="groupHeader" extendsParagraphStyleID="base" paragraphSpacingBefore="19" paragraphSpacing="7" />
 	<entryRule matchesQuery="isgroupheader" paragraphStyleID="groupHeader" lineCharacterStyleID="groupHeader" />
 	
 	<!-- @done style. This section defines the styles that are applied to lines tagged with @done. -->
